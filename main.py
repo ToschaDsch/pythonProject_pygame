@@ -87,7 +87,7 @@ def create_caters(group):  # the function make a caterpillar
 
 # there are butterflies
 butt_body_images = ["butt1.bmp", "butt2.bmp"]
-butt_wings_images = ["butt1_wing.bmp", "butt1_wing.bmp"]
+butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp"]
 butter_body_surf = [pygame.image.load(path) for path in butt_body_images]
 butter_wings_surf = [pygame.image.load(path) for path in butt_wings_images]
 for i in range(len(butter_body_surf)):
@@ -189,7 +189,7 @@ while True:  # the main cycle
     sc.blit(cross_surf, (cross_rect.x, cross_rect.y))  # show the cross
 
     caters.update(W2, H2, dx, dy, x2, y2, sc)  # upgrade caterpillars
-    butterflies.update(W2, H2, dx, dy, x0, y0)
+    butterflies.update(W2, H2, dx, dy, x0, y0, sc)
 
     balls.draw(sc)  # show snowflakes
     cats.draw(sc)  # show cats
@@ -201,7 +201,7 @@ while True:  # the main cycle
         xb, yb, score, flag_score = i.collide(tiger.rect, score, flag_score)
 
     if flag_score == 5:
-        create_butterfly(xb, yb, butterflies)
+        create_butterfly(xb+dx, yb+dy, butterflies)
 
     if flag_score < 0:  # show the score above
         my_font = pygame.font.SysFont('Comic Sans MS', 30)  # normal case
@@ -213,7 +213,7 @@ while True:  # the main cycle
         text_rect = text_surface.get_rect(center=(W // 2, 15))
         flag_score -= 1
 
-    butterflies.draw(sc)
+    #butterflies.draw(sc)
     tiger.draw2(sc)
     balls.update(H2, sx, dx, dy)  # update snow
     cats.update(W2, H2, dx, dy, x2, y2)  # update cats
