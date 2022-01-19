@@ -86,8 +86,8 @@ def create_caters(group):  # the function make a caterpillar
 
 
 # there are butterflies
-butt_body_images = ["butt1.bmp", "butt2.bmp"]
-butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp"]
+butt_body_images = ["butt1.bmp", "butt2.bmp", "butt3.bmp", "butt4.bmp", "butt5.bmp"]
+butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp", "butt3_wing.bmp", "butt4_wing.bmp", "butt5_wing.bmp"]
 butter_body_surf = [pygame.image.load(path) for path in butt_body_images]
 butter_wings_surf = [pygame.image.load(path) for path in butt_wings_images]
 for i in range(len(butter_body_surf)):
@@ -201,7 +201,7 @@ while True:  # the main cycle
         xb, yb, score, flag_score = i.collide(tiger.rect, score, flag_score)
 
     if flag_score == 5:
-        create_butterfly(xb+dx, yb+dy, butterflies)
+        create_butterfly(xb-dx, yb-dy, butterflies)
 
     if flag_score < 0:  # show the score above
         my_font = pygame.font.SysFont('Comic Sans MS', 30)  # normal case
