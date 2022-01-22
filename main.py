@@ -112,8 +112,10 @@ def create_caters(group):  # the function make a caterpillar
 
 
 # there are butterflies
-butt_body_images = ["butt1.bmp", "butt2.bmp", "butt3.bmp", "butt4.bmp", "butt5.bmp", "butt7.bmp"]
-butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp", "butt3_wing.bmp", "butt4_wing.bmp", "butt5_wing.bmp", "butt7_wing.bmp"]
+butt_body_images = ["butt1.bmp", "butt2.bmp", "butt3.bmp", "butt4.bmp", "butt5.bmp", "butt6.bmp", "butt7.bmp"
+                    , "butt8.bmp", "butt9.bmp"]
+butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp", "butt3_wing.bmp", "butt4_wing.bmp", "butt5_wing.bmp",
+                     "butt6_wing.bmp", "butt7_wing.bmp", "butt8_wing.bmp", "butt9_wing.bmp"]
 butter_body_surf = [pygame.image.load(path) for path in butt_body_images]
 butter_wings_surf = [pygame.image.load(path) for path in butt_wings_images]
 for i in range(len(butter_body_surf)):
@@ -217,7 +219,6 @@ while True:  # the main cycle
     caters.update(W2, H2, dx, dy, x2, y2, sc)  # upgrade caterpillars
     butterflies.update(W2, H2, dx, dy, x0, y0, sc)
 
-    balls.draw(sc)  # show snowflakes
     cats.draw(sc)  # show cats
 
     if pygame.Rect.colliderect(tiger.rect, cross_rect):  # the hero stands on the cross
@@ -227,7 +228,7 @@ while True:  # the main cycle
         xb, yb, score, flag_score = i.collide(tiger.rect, score, flag_score)
 
     if flag_score == 5:
-        create_butterfly(xb-dx, yb-dy, butterflies)
+        create_butterfly(xb + dx, yb + dy, butterflies)
 
     if flag_score < 0:  # show the score above
         my_font = pygame.font.SysFont('Comic Sans MS', 30)  # normal case
@@ -239,8 +240,7 @@ while True:  # the main cycle
         text_rect = text_surface.get_rect(center=(W // 2, 15))
         flag_score -= 1
 
-    #butterflies.draw(sc)
-    tiger.draw2(sc)
+    tiger.draw2(sc)  # draw the hero
 
     butterflies.update(W2, H2, dx, dy, x0, y0, sc)
 
@@ -262,6 +262,7 @@ while True:  # the main cycle
 
     balls.update(H2, sx, dx, dy)  # update snow
     cats.update(W2, H2, dx, dy, x2, y2)  # update cats
+    balls.draw(sc)  # show snowflakes
     sc.blit(text_surface, text_rect)  # draw the score
     pygame.display.flip()  # draw all the things
     clock.tick(FPS)  # neu iteration

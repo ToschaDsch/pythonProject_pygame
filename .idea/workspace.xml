@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="neu hero">
+    <list default="true" id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="neu hero with legs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butt6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/butt6.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642849844841</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="neu hero with legs">
+      <created>1642870646647</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1642870646647</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +280,8 @@
     <MESSAGE value="butterfly 2 &#10;with wings&#10;correct" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'" />
     <MESSAGE value="neu hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="neu hero" />
+    <MESSAGE value="neu hero with legs" />
+    <option name="LAST_COMMIT_MESSAGE" value="neu hero with legs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -138,11 +138,11 @@ class Hero:
                 self.y_tail = self.rect.y + 55
 
                 self.x_leg_a_a = self.rect.x + 85
-                self.y_leg_a_a = self.rect.y + 70
+                self.y_leg_a_a = self.rect.y + 65
                 self.leg_a_a = self.leg_a_a_right
 
                 self.x_leg_a_b = self.rect.x + 5
-                self.y_leg_a_b = self.rect.y + 70
+                self.y_leg_a_b = self.rect.y + 65
                 self.leg_a_b = self.leg_a_b_right
 
                 self.hero_surf = self.hero_right
@@ -196,9 +196,9 @@ class Hero:
                 self.leg_a_a = self.leg_down
                 self.leg_a_b = self.leg_down
                 self.x_leg_a_a = self.rect.x + 28
-                self.y_leg_a_a = self.rect.y + 62
+                self.y_leg_a_a = self.rect.y + 30
                 self.x_leg_a_b = self.rect.x + 62
-                self.y_leg_a_b = self.rect.y + 62
+                self.y_leg_a_b = self.rect.y + 50
 
                 self.iter2 = 0
 
@@ -206,8 +206,6 @@ class Hero:
                 self.rect.y -= self.speed
                 self.y_head -= self.speed
                 self.y_tail -= self.speed
-                self.y_leg_a_a -= self.speed
-                self.y_leg_a_b -= self.speed
                 if self.iter2 <= 5:
                     self.y_leg_a_a -= 0
                     self.y_leg_a_b -= 2 * self.speed
@@ -245,9 +243,9 @@ class Hero:
                 self.leg_a_a = self.leg_down
                 self.leg_a_b = self.leg_down
                 self.x_leg_a_a = self.rect.x + 28
-                self.y_leg_a_a = self.rect.y + 62
+                self.y_leg_a_a = self.rect.y + 70
                 self.x_leg_a_b = self.rect.x + 62
-                self.y_leg_a_b = self.rect.y + 62
+                self.y_leg_a_b = self.rect.y + 45
                 self.hero_surf = self.hero_down
 
                 self.iter2 = 0
