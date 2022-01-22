@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="Merge remote-tracking branch 'github/master'">
+      <change beforePath="$PROJECT_DIR$/circle3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle4.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle5.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/circle6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow1.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow2.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow3.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snow4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow4.bmp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23hqjpfr6SqE21Rqm8l8a5jZBdD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="caterpillar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caterpillar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Toscha\pythonProject_pygame\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.caterpillar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="" />
+      <created>1642196806912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642196806912</updated>
+    </task>
+    <task id="LOCAL-00001" summary="light">
+      <created>1642200367522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642200367522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="island!">
+      <created>1642245544806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642245544806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="island!">
+      <created>1642270148411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642270148411</updated>
+    </task>
+    <task id="LOCAL-00004" summary="caterpillar">
+      <created>1642347369450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642347369450</updated>
+    </task>
+    <task id="LOCAL-00005" summary="caterpillar 2">
+      <created>1642354026340</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642354026340</updated>
+    </task>
+    <task id="LOCAL-00006" summary="it works!&#10;you can eat a lot of caterpillars!!!">
+      <created>1642446520297</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642446520297</updated>
+    </task>
+    <task id="LOCAL-00007" summary="it works!&#10;you can eat a lot of caterpillars!!!">
+      <created>1642453182876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642453182876</updated>
+    </task>
+    <task id="LOCAL-00008" summary="it works!&#10;you can eat a lot of caterpillars!!!">
+      <created>1642524952455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642524952455</updated>
+    </task>
+    <task id="LOCAL-00009" summary="main">
+      <created>1642525006064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642525006064</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hero in a module">
+      <created>1642528286041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642528286041</updated>
+    </task>
+    <task id="LOCAL-00011" summary="butterfly 1">
+      <created>1642538089764</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642538089764</updated>
+    </task>
+    <task id="LOCAL-00012" summary="butterfly 1">
+      <created>1642538936205</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642538936205</updated>
+    </task>
+    <task id="LOCAL-00013" summary="butterfly 2 &#10;without wings">
+      <created>1642540821252</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642540821252</updated>
+    </task>
+    <task id="LOCAL-00014" summary="butterfly 2 &#10;with wings">
+      <created>1642624072499</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642624072499</updated>
+    </task>
+    <task id="LOCAL-00015" summary="butterfly 2 &#10;with wings">
+      <created>1642624140611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642624140611</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'github/master'">
+      <created>1642711863726</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642711863726</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'github/master'">
+      <created>1642711873421</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1642711873421</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'github/master'">
+      <created>1642712906258</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642712906258</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="light" />
+    <MESSAGE value="island!" />
+    <MESSAGE value="caterpillar" />
+    <MESSAGE value="caterpillar 2" />
+    <MESSAGE value="it works!&#10;you can eat a lot of caterpillars!!!" />
+    <MESSAGE value="main" />
+    <MESSAGE value="hero in a module" />
+    <MESSAGE value="butterfly 1" />
+    <MESSAGE value="butterfly 2 &#10;without wings" />
+    <MESSAGE value="butterfly 2 &#10;with wings" />
+    <MESSAGE value="butterfly 2 &#10;with wings&#10;correct" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -55,11 +55,23 @@ W2 = bg_surf.get_width()  # height for the background
 H2 = bg_surf.get_height()  # bright
 
 # there is the hero
-car_surf = pygame.image.load("tiger.bmp")
-car_surf.set_colorkey((255, 255, 255))  # clean away background
-car_surf = pygame.transform.scale(car_surf, (car_surf.get_width() // 2, car_surf.get_height() // 2))  # minimize
+
+surf_head = pygame.image.load("head.bmp")
+surf_head = pygame.transform.scale(surf_head, (30, 30))  # minimize
+surf_head.set_colorkey((181, 230, 29))   # clean away background
+surf_head_down = pygame.image.load("head_down.bmp")
+surf_head_down = pygame.transform.scale(surf_head_down, (30, 30))  # minimize
+surf_head_down.set_colorkey((181, 230, 29))   # clean away background
+
+surf_tail = pygame.image.load("tail.bmp")
+
+surf_leg_a_a = pygame.image.load("pad_0_1.bmp")
+
+car_surf = pygame.image.load("basin.bmp")
+car_surf.set_colorkey((181, 230, 29))  # clean away background
+car_surf = pygame.transform.scale(car_surf, (100, 100))  # minimize
 car_rect = car_surf.get_rect(center=(W // 2, H // 2))  # make a rect
-tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2)  # make a tiger
+tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2, surf_head, surf_head_down)  # make a tiger
 
 # there are a lot of caterpillars
 cater_images = ["circle1.bmp", "circle2.bmp", "circle3.bmp", "circle4.bmp", "circle5.bmp", "circle6.bmp"]
@@ -82,7 +94,7 @@ def create_caters(group):  # the function make a caterpillar
     radius = randint(10, 30)  # radius of balls
     return Caterpillar(n, radius, xc, yc, direction1,  # number of balls in a caterpillar, radius, coords + direction
                        5, pygame.transform.scale(cater_surf[index],  # speed (I don't need it), minimization of images
-                                                 (1 * radius, 1 * radius)), group)  # group
+                                                 (1.1 * radius, 1.1 * radius)), group)  # group
 
 
 # there are butterflies
@@ -215,6 +227,25 @@ while True:  # the main cycle
 
     #butterflies.draw(sc)
     tiger.draw2(sc)
+
+    butterflies.update(W2, H2, dx, dy, x0, y0, sc)
+
+    for i in caters:  # collide with a caterpillar
+        xb, yb, score, flag_score = i.collide(tiger.rect, score, flag_score)
+
+    if flag_score == 5:
+        create_butterfly(xb-dx, yb-dy, butterflies)
+
+    if flag_score < 0:  # show the score above
+        my_font = pygame.font.SysFont('Comic Sans MS', 30)  # normal case
+        text_surface = my_font.render(str(score), True, (55, 51, 14))  # black
+        text_rect = text_surface.get_rect(center=(W // 2, 15))
+    else:
+        my_font = pygame.font.SysFont('Comic Sans MS', 40)  # the hero has eaten a caterpillar
+        text_surface = my_font.render(str(score), False, (234, 46, 36))  # red
+        text_rect = text_surface.get_rect(center=(W // 2, 15))
+        flag_score -= 1
+
     balls.update(H2, sx, dx, dy)  # update snow
     cats.update(W2, H2, dx, dy, x2, y2)  # update cats
     sc.blit(text_surface, text_rect)  # draw the score
