@@ -68,13 +68,24 @@ surf_tail = pygame.image.load("tail.bmp")
 surf_tail = pygame.transform.scale(surf_tail, (40, 20))  # minimize
 surf_tail.set_colorkey((181, 230, 29))   # clean away background
 
-surf_leg_a_a = pygame.image.load("pad_0_1.bmp")
+surf_leg_a_a = pygame.image.load("pad_1_0.bmp")
+surf_leg_a_a.set_colorkey((181, 230, 29))  # clean away background
+surf_leg_a_a = pygame.transform.scale(surf_leg_a_a, (30, 30))  # minimize
+
+surf_leg_a_b = pygame.image.load("pad_1_1.bmp")
+surf_leg_a_b.set_colorkey((181, 230, 29))  # clean away background
+surf_leg_a_b = pygame.transform.scale(surf_leg_a_b, (30, 30))  # minimize
+
+surf_leg_down = pygame.image.load("pad_down.bmp")
+surf_leg_down.set_colorkey((181, 230, 29))  # clean away background
+surf_leg_down = pygame.transform.scale(surf_leg_down, (10, 30))  # minimize
 
 car_surf = pygame.image.load("basin.bmp")
 car_surf.set_colorkey((181, 230, 29))  # clean away background
 car_surf = pygame.transform.scale(car_surf, (100, 100))  # minimize
 car_rect = car_surf.get_rect(center=(W // 2, H // 2))  # make a rect
-tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2, surf_head, surf_head_down, surf_tail)  # make a tiger
+tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2, surf_head, surf_head_down, surf_tail,
+             surf_leg_a_a, surf_leg_a_b, surf_leg_down)  # make a tiger
 
 # there are a lot of caterpillars
 cater_images = ["circle1.bmp", "circle2.bmp", "circle3.bmp", "circle4.bmp", "circle5.bmp", "circle6.bmp"]
@@ -101,8 +112,8 @@ def create_caters(group):  # the function make a caterpillar
 
 
 # there are butterflies
-butt_body_images = ["butt1.bmp", "butt2.bmp", "butt3.bmp", "butt4.bmp", "butt5.bmp"]
-butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp", "butt3_wing.bmp", "butt4_wing.bmp", "butt5_wing.bmp"]
+butt_body_images = ["butt1.bmp", "butt2.bmp", "butt3.bmp", "butt4.bmp", "butt5.bmp", "butt7.bmp"]
+butt_wings_images = ["butt1_wing.bmp", "butt2_wing.bmp", "butt3_wing.bmp", "butt4_wing.bmp", "butt5_wing.bmp", "butt7_wing.bmp"]
 butter_body_surf = [pygame.image.load(path) for path in butt_body_images]
 butter_wings_surf = [pygame.image.load(path) for path in butt_wings_images]
 for i in range(len(butter_body_surf)):

@@ -43,7 +43,6 @@ class Butterfly(pygame.sprite.Sprite):
 
             scale_x = 5 * (1 + self.scale)
             scale_y = 25 * (1 + self.scale)
-            print("1", scale_x, scale_y)
             self.image = pygame.transform.scale(self.image0, (scale_x, scale_y))
             center1 = self.image.get_rect().center
             self.image = pygame.transform.rotate(self.image, self.direction - 90)
@@ -51,7 +50,6 @@ class Butterfly(pygame.sprite.Sprite):
 
             scale_x = 12.5 * (1 + self.scale)*abs(cos(self.alfa*pi/180))
             scale_y = 25 * (1 + self.scale)
-            print("2", scale_x, scale_y)
             self.butter_wings = pygame.transform.scale(self.butter_wings0, (scale_x, scale_y))
 
             self.butter_wings2 = pygame.transform.flip(self.butter_wings, False, True)
