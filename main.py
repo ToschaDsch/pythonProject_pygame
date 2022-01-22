@@ -59,11 +59,14 @@ H2 = bg_surf.get_height()  # bright
 surf_head = pygame.image.load("head.bmp")
 surf_head = pygame.transform.scale(surf_head, (30, 30))  # minimize
 surf_head.set_colorkey((181, 230, 29))   # clean away background
+
 surf_head_down = pygame.image.load("head_down.bmp")
 surf_head_down = pygame.transform.scale(surf_head_down, (30, 30))  # minimize
 surf_head_down.set_colorkey((181, 230, 29))   # clean away background
 
 surf_tail = pygame.image.load("tail.bmp")
+surf_tail = pygame.transform.scale(surf_tail, (40, 20))  # minimize
+surf_tail.set_colorkey((181, 230, 29))   # clean away background
 
 surf_leg_a_a = pygame.image.load("pad_0_1.bmp")
 
@@ -71,7 +74,7 @@ car_surf = pygame.image.load("basin.bmp")
 car_surf.set_colorkey((181, 230, 29))  # clean away background
 car_surf = pygame.transform.scale(car_surf, (100, 100))  # minimize
 car_rect = car_surf.get_rect(center=(W // 2, H // 2))  # make a rect
-tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2, surf_head, surf_head_down)  # make a tiger
+tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2, surf_head, surf_head_down, surf_tail)  # make a tiger
 
 # there are a lot of caterpillars
 cater_images = ["circle1.bmp", "circle2.bmp", "circle3.bmp", "circle4.bmp", "circle5.bmp", "circle6.bmp"]

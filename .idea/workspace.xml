@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="Merge remote-tracking branch 'github/master'">
-      <change beforePath="$PROJECT_DIR$/circle3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle3.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/circle4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle4.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/circle5.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle5.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/circle6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/circle6.bmp" afterDir="false" />
+    <list default="true" id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="neu hero">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snow1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow1.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snow2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow2.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snow3.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow3.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snow4.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/snow4.bmp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642712906258</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="neu hero">
+      <created>1642847689614</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642847689614</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +264,8 @@
     <MESSAGE value="butterfly 2 &#10;with wings" />
     <MESSAGE value="butterfly 2 &#10;with wings&#10;correct" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'" />
+    <MESSAGE value="neu hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="neu hero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
