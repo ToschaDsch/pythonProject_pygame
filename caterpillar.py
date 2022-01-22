@@ -136,4 +136,4 @@ class Caterpillar(pygame.sprite.Sprite):
             self.kill()
             flag_score = 5
 
-        return self.rect.x, self.rect.y, score, flag_score
+        return car_rect.x, car_rect.y, score, flag_score

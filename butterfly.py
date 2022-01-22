@@ -28,7 +28,7 @@ class Butterfly(pygame.sprite.Sprite):
         self.y = y
         self.direction = direction
         self.add(group)
-        self.speed = 5
+        self.speed = 4
 
         self.alfa = 0       # ankle between horizont and a wing
         self.scale = 1

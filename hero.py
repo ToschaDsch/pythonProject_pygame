@@ -5,7 +5,7 @@ from math import pi
 
 class Hero:
     def __init__(self, x, y, speed, surf, W, H, W2, H2, surf_head, surf_head_down, surf_tail,
-                 surf_leg_a_a, surf_leg_a_b, surf_leg_down):
+                 surf_leg_a_a, surf_leg_a_b, surf_leg_down, shade):
         self.image = surf
         self.rect = self.image.get_rect(center=(x, y))
         self.speed = speed
@@ -49,6 +49,9 @@ class Hero:
         self.y_leg_a_b = y + 20
 
         self.leg_down = surf_leg_down
+
+        self.shade = shade
+        self.shade_rect = self.shade.get_rect(center=(x, y+35))
 
         self.iter1 = 0
         self.iter2 = 0
@@ -94,6 +97,7 @@ class Hero:
                 self.rect.x -= self.speed
                 self.x_head -= self.speed
                 self.x_tail -= self.speed
+                self.shade_rect.x -= self.speed
                 if self.iter2 <= 5:
                     self.x_leg_a_a -= 0
                     self.x_leg_a_b -= 2*self.speed
@@ -150,6 +154,7 @@ class Hero:
                 self.rect.x += self.speed
                 self.x_head += self.speed
                 self.x_tail += self.speed
+                self.shade_rect.x += self.speed
                 if self.iter2 <= 5:
                     self.x_leg_a_a -= 0
                     self.x_leg_a_b += 2*self.speed
@@ -206,6 +211,7 @@ class Hero:
                 self.rect.y -= self.speed
                 self.y_head -= self.speed
                 self.y_tail -= self.speed
+                self.shade_rect.y -= self.speed
                 if self.iter2 <= 5:
                     self.y_leg_a_a -= 0
                     self.y_leg_a_b -= 2 * self.speed
@@ -254,6 +260,7 @@ class Hero:
                 self.rect.y += self.speed
                 self.y_head += self.speed
                 self.y_tail += self.speed
+                self.shade_rect.y += self.speed
                 if self.iter2 <= 5:
                     self.y_leg_a_a -= 0
                     self.y_leg_a_b += 2 * self.speed
@@ -281,6 +288,7 @@ class Hero:
         return x2, y2
 
     def draw2(self, surf1):
+        surf1.blit(self.shade, (self.shade_rect.x, self.shade_rect.y))
         surf1.blit(self.leg_a_b, (self.x_leg_a_b, self.y_leg_a_b))
         surf1.blit(self.leg_a_a, (self.x_leg_a_a, self.y_leg_a_a))
         surf1.blit(self.tail, (self.x_tail, self.y_tail))

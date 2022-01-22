@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1a95e8d8-9a7d-4380-a578-52afd353b971" name="Changes" comment="neu hero with legs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butt6.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/butt6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basin.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/basin.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/butterfly.py" beforeDir="false" afterPath="$PROJECT_DIR$/butterfly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caterpillar.py" beforeDir="false" afterPath="$PROJECT_DIR$/caterpillar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wood.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/wood.bmp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642870646647</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="neu hero with legs">
+      <created>1642876848222</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642876848222</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

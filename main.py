@@ -55,7 +55,6 @@ W2 = bg_surf.get_width()  # height for the background
 H2 = bg_surf.get_height()  # bright
 
 # there is the hero
-
 surf_head = pygame.image.load("head.bmp")
 surf_head = pygame.transform.scale(surf_head, (30, 30))  # minimize
 surf_head.set_colorkey((181, 230, 29))   # clean away background
@@ -83,9 +82,14 @@ surf_leg_down = pygame.transform.scale(surf_leg_down, (10, 30))  # minimize
 car_surf = pygame.image.load("basin.bmp")
 car_surf.set_colorkey((181, 230, 29))  # clean away background
 car_surf = pygame.transform.scale(car_surf, (100, 100))  # minimize
+
+car_shade = pygame.image.load("shade.bmp")
+car_shade.set_colorkey((181, 230, 29))  # clean away background
+car_shade = pygame.transform.scale(car_shade, (100, 50))  # minimize
+car_shade.set_alpha(150)  # set transparent
 car_rect = car_surf.get_rect(center=(W // 2, H // 2))  # make a rect
 tiger = Hero(W // 2, H // 2, 5, car_surf, W, H, W2, H2, surf_head, surf_head_down, surf_tail,
-             surf_leg_a_a, surf_leg_a_b, surf_leg_down)  # make a tiger
+             surf_leg_a_a, surf_leg_a_b, surf_leg_down, car_shade)  # make a tiger
 
 # there are a lot of caterpillars
 cater_images = ["circle1.bmp", "circle2.bmp", "circle3.bmp", "circle4.bmp", "circle5.bmp", "circle6.bmp"]
@@ -192,7 +196,7 @@ while True:  # the main cycle
             cats_a[nom].redirection(dir_n)  # change direction from a cat
 
             if flag_wait == 0:  # make a caterpillar
-                flag_wait = 6  # it is the time!
+                flag_wait = 3  # it is the time!
                 create_caters(caters)
             flag_wait -= 1  # wait please
 
@@ -228,7 +232,7 @@ while True:  # the main cycle
         xb, yb, score, flag_score = i.collide(tiger.rect, score, flag_score)
 
     if flag_score == 5:
-        create_butterfly(xb + dx, yb + dy, butterflies)
+        create_butterfly(xb-dx, yb-dy, butterflies)
 
     if flag_score < 0:  # show the score above
         my_font = pygame.font.SysFont('Comic Sans MS', 30)  # normal case
